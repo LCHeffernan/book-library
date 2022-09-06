@@ -18,16 +18,13 @@ exports.findAllBooks = async (req, res) => {
 };
 
 exports.findBookById = async (req, res) => {
-  const { bookId } = req.params;
-  crudHelper.findEntryById(bookId, res, 'book');
+  crudHelper.findEntryById(req.params.bookId, res, 'book');
 };
 
 exports.updateBook = async (req, res) => {
-  const { bookId } = req.params;
-  crudHelper.updateDetails(bookId, req, res, 'book');
+  crudHelper.updateDetails(req.params.bookId, req, res, 'book');
 };
 
 exports.deleteBook = async (req, res) => {
-  const { bookId } = req.params;
-  crudHelper.deleteEntry(bookId, res, 'book');
+  crudHelper.deleteEntry(req.params.bookId, res, 'book');
 };

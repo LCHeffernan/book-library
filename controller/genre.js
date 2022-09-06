@@ -9,16 +9,14 @@ exports.findAllGenres = async (_, res) => {
 };
 
 exports.findGenreById = async (req, res) => {
-  const { genreId } = req.params;
-  crudHelper.findEntryById(genreId, res, "genre");
+  crudHelper.findEntryById(req.params.genreId, res, "genre");
 };
 
 exports.updateGenre = async (req, res) => {
-  const { genreId } = req.params;
-  crudHelper.updateDetails(genreId, req, res, "genre");
+
+  crudHelper.updateDetails(req.params.genreId, req, res, "genre");
 };
 
 exports.deleteGenre = async (req, res) => {
-  const { genreId } = req.params;
-  crudHelper.deleteEntry(genreId, res, "genre");
+  crudHelper.deleteEntry(req.params.genreId, res, "genre");
 };

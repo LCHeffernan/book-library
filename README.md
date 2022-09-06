@@ -55,7 +55,7 @@ There are 4 more routes that can be used for each model, in the route where you 
 |PATCH|```localhost:3000/model/<id>```|Updates the entry with the given id and the data sent in the JSON body. Can update the whole entry or just parts of it.|
 |DELETE|```localhost:3000/model/<id>```|Deletes the entry from the model, with the given id.|
 
-The models Readers and Books have the additional functionality of being able to search using query strings. To search for a book by it's title send a GET request to ```localhost:3000/books/?title=<book title>```.
+The models Readers and Books have the additional functionality of being able to search using query strings. To search for a book by its title send a GET request to ```localhost:3000/books/?title=<book title>```.
 You can search for a reader by name, email address or both. To search by just one use a similar approach to books. To search using both send a GET request to ```localhost:3000/readers/?name=<user name>&email=<email address>```
 ___
 ## Author.

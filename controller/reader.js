@@ -25,16 +25,13 @@ exports.findAllReaders = async (req, res) => {
 };
 
 exports.findReaderById = async (req, res) => {
-  const { readerId } = req.params;
-  crudHelper.findEntryById(readerId, res, 'reader');
+  crudHelper.findEntryById(req.params.readerId, res, 'reader');
 };
 
 exports.updateReaderDetails = async (req, res) => {
-  const { readerId } = req.params;
-  crudHelper.updateDetails(readerId, req, res, 'reader');
+  crudHelper.updateDetails(req.params.readerId, req, res, 'reader');
 };
 
 exports.deleteReader = async (req, res) => {
-  const { readerId } = req.params;
-  crudHelper.deleteEntry(readerId, res, 'reader');
+  crudHelper.deleteEntry(req.params.readerId, res, 'reader');
 };
