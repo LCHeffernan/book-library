@@ -13,8 +13,6 @@ This project has the following dependencies: JavaScript, Express, SQL2 and Seque
 * Fork the repository.
 * Clone down your fork using ```git clone```.
 * Change directory into your cloned folder and run ``` npm install ```.
-* Run ``` npm i -S express mysql2 sequelize```.
-* Run ``` npm i -D dotenv nodemon mocha chai supertest```. if you want to make changes to the code and run the tests.
 * To start the app run ```npm start```.
 
 ## Using the book library
