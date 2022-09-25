@@ -6,6 +6,7 @@ This was a backend project which involved using SQL2, Sequelize and express.js, 
 A book library is created using CRUD operations for Reader, Book, Author and Genre models. The relationship between the models can be seen in the ERD screenshot below.
 
 ![ERD - Entity Relationship Diagram](/images/Screenshot_ERD.png?raw=true "ERD - Entity Relationship Diagram.")
+<img src="/images/Screenshot_ERD.png" width="219" height="226" alt="ERD - Entity Relationship Diagram" title="ERD - Entity Relationship Diagram"/>
 ___
 
 ## Download and setup.
