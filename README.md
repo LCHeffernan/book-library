@@ -6,8 +6,8 @@ This was a backend project which involved using SQL2, Sequelize and express.js, 
 A book library is created using CRUD operations for Reader, Book, Author and Genre models. The relationship between the models can be seen in the ERD screenshot below.
 
 <img src="/images/Screenshot_ERD.png" width="547" height="564" alt="ERD - Entity Relationship Diagram" title="ERD - Entity Relationship Diagram"/>
-___
 
+___
 ## Download and setup.
 This project has the following dependencies: JavaScript, Express, SQL2 and Sequelize and additional dev dependencies Mocha, Chai, Supertest, Dotenv, Nodemon.  You will need to have MySQL running in a [docker](https://www.docker.com/?utm_source=google&utm_medium=cpc&utm_campaign=search_emea_brand&utm_term=docker_exact&gclid=CjwKCAjw6raYBhB7EiwABge5Kn0-PeLbzCirw11gOzKbacmNwycp6EqOZcpI3DOh0FQRob7OTECjpxoCmt0QAvD_BwE) container on your machine. To use the database you can use [Postman](https://www.postman.com/).  To download the project:
 * Fork the repository.
